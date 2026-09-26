@@ -1,4 +1,4 @@
-/* body{
+body{
     margin:0px;
     padding:0px;
     background-color: rgb(40, 96, 250);
@@ -13,4 +13,4 @@ header{
 main{
     display:grid;
     grid-template-columns:1fr 1.2fr;
-} */
+}
