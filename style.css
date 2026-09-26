@@ -1,0 +1,16 @@
+/* body{
+    margin:0px;
+    padding:0px;
+    background-color: rgb(40, 96, 250);
+    color: white;
+    font-family:sans-serif;
+}
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+main{
+    display:grid;
+    grid-template-columns:1fr 1.2fr;
+} */
