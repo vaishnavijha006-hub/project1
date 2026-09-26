@@ -6,6 +6,7 @@ body{
     font-family:sans-serif;
 }
 header{
+    padding:20px 30px;
     display:flex;
     justify-content:space-between;
     align-items:center;
@@ -13,4 +14,31 @@ header{
 main{
     display:grid;
     grid-template-columns:1fr 1.2fr;
+}
+.stats{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+header > div:first-child{
+    gap:5px;
+    display:flex;
+    align-items:center;
+}
+header p{
+    margin:0px;
+}
+h1{
+    font-size:60px;
+    line-height: 1;
+}
+#small{
+    max-width:450px;
+}
+.card{
+    border:1px solid rgba(255, 255, 255, 0.3);
+    padding:25px;
+}
+.number{
+    font-size:40px;
 }
